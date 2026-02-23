@@ -36,6 +36,10 @@ public class ObjSilla{
         Precio = precio;
     }
 
-    
+    public String toString() {
+    return "Silla: " + NumSilla +
+           " | Fila: " + Posicion +
+           " | Precio: $" + Precio;
+}
     
 }
