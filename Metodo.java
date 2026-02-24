@@ -5,7 +5,7 @@ public class Metodo {
     static Scanner sc = new Scanner(System.in);
 
     public static ObjSilla[][] LlenarRegistros(){
-        ObjSilla[][] teatro = new ObjSilla[4][4];
+        ObjSilla[][] teatro = new ObjSilla[2][2];
         for(int i = 0; i < teatro.length; i++){
             for(int j = 0; j < teatro[i].length; j++){
                 System.out.println("Registro Silla [" + i + "][" + j + "]");
